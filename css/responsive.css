@@ -1,0 +1,20 @@
+@media ( max-width: 991px){
+    .products-card{
+        width: calc((100% - 50px) / 2);
+    }
+}
+
+@media ( max-width: 767px){
+    .products-card{
+        width: 100%;
+    }
+}
+
+@media ( max-width: 575px){
+    .banner-descr h1{
+        font-size: 24px;
+    }
+    .banner-descr p{
+        font-size: 14px;
+    }
+}
