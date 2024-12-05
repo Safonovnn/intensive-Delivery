@@ -34,3 +34,21 @@ body{
 .logo img{
     max-width: 100px;
 }
+
+.header-controls{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+
+}
+
+.btn-user{
+    background: #1890FF;
+    color: #fff;
+}
+
+.btn-cart{
+
+}
