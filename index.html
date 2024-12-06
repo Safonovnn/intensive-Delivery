@@ -58,7 +58,7 @@
                 />
               </div>
             </div>
-            <div class="products-wrapper">
+            <div class="products-wrapper" id="cardWrapper">
               <div class="products-card">
                 <img src="img/image0.jpg" alt="image" />
                 <div class="card-descr-top">
@@ -148,17 +148,21 @@
                   <div class="card-descr-price">От 900 руб.</div>
                   <div class="card-descr-subtitle">Пицца</div>
                 </div>
+                <div class="block-btn">
+                  <button class="btn btn-design" id="btnOrder">Заказать</button>
+                  <button class="btn btn-design">В корзину</button>
+                </div>
               </div>
             </div>
           </div>
         </section>
       </main>
 
-      <div class="card-modal__overlay">
+      <div class="card-modal__overlay" id="modal">
         <div class="card-modal">
           <div class="card-modal-header">
             <h2>Корзина</h2>
-            <span>
+            <span id="close">
               <img src="img/icon-close.svg" alt="icon" />
             </span>
           </div>
@@ -206,7 +210,6 @@
           </div>
         </div>
       </div>
-
       <footer class="footer">
         <div class="container">
           <div class="footer-box">
@@ -232,5 +235,6 @@
         </div>
       </footer>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
